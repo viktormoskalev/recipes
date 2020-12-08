@@ -1,0 +1,47 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid-l{
+    margin: -20px;
+    .grid-item{
+      padding: 20px;
+    }
+  }
+
+  .grid-xl{
+    margin:0 -50px;
+    .grid-item{
+      padding:0 50px;
+    }
+  }
+
+
+  
+@media screen and (min-width: $breakpoint-l){
+  .grid-m-l{
+    margin: -40px;
+    .grid-item{
+      padding: 40px;
+    }
+  }
+  .grid-l-l{
+    margin:0 -60px;
+    .grid-item{
+      padding:0 60px;
+    }
+  }
+}
+
+  
+@media screen and (min-width: $breakpoint-xxxl){
+
+  .grid-l-xxxl{
+    margin:0 -60px;
+    .grid-item{
+      padding:0 60px;
+    }
+  }
+}
+

@@ -1,0 +1,36 @@
+.footer{
+  text-align: center;
+  font-size: 14px;
+  padding: 45px 0;
+  background-color:#f7f7f7;
+
+  &-copyright{
+line-height: 4;
+    font-weight: 300;
+    color: rgba(139, 139, 139, 0.5);
+  }
+  &-designby{
+    font-style: normal;
+    letter-spacing: 2.8px;
+    font-weight: 600;
+
+  }
+  &-light-style{
+    font-weight: 300;
+    color: #8b8b8b;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-m){
+
+  .footer{
+    &-flex{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+  }
+}
+
+

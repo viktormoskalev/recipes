@@ -1,0 +1,64 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="123px" height="123px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="19px" y="0px" width="85px" height="88px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="6.325" />
+    <feFlood flood-color="rgb(1, 1, 1)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.55"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<filter filterUnits="userSpaceOnUse" id="Filter_1" x="18px" y="35px" width="87px" height="88px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="6.325" />
+    <feFlood flood-color="rgb(1, 1, 1)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.55"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<filter filterUnits="userSpaceOnUse" id="Filter_2" x="36px" y="18px" width="87px" height="88px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="6.325" />
+    <feFlood flood-color="rgb(1, 1, 1)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.55"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<filter filterUnits="userSpaceOnUse" id="Filter_3" x="0px" y="17px" width="82px" height="88px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="6.325" />
+    <feFlood flood-color="rgb(1, 1, 1)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.55"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.47785639018516, 0, 0, 0.47935779816514,59.9693492699082, 47.6066582568807)" font-size="24px"><tspan font-size="24px" font-family="Lato" font-weight="bold" fill="#FFFFFF">F</tspan></text>
+</g>
+<g filter="url(#Filter_1)">
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.47785639018516, 0, 0, 0.47935779816514,58.9237994881831, 82.5745412844037)" font-size="24px"><tspan font-size="24px" font-family="Lato" font-weight="bold" fill="#FFFFFF">D</tspan></text>
+</g>
+<g filter="url(#Filter_2)">
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.47785639018516, 0, 0, 0.47935779816514,77.1627276832756, 65.5481766055046)" font-size="24px"><tspan font-size="24px" font-family="Lato" font-weight="bold" fill="#FFFFFF">U</tspan></text>
+</g>
+<g filter="url(#Filter_3)">
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.47785639018516, 0, 0, 0.47935779816514,41.0520096342014, 64.5745412844037)" font-size="24px"><tspan font-size="24px" font-family="Lato" font-weight="bold" fill="#FFFFFF">I</tspan></text>
+</g>
+</svg>

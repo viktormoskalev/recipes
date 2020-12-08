@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Recipes</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
+</head>
+
+<body>
+<section class="hero">
+  @@include('./html-templates/header.html',{
+  })
+  <div class="container">
+    <div class="hero-body">
+      <p class="hero-description">Find your Favorite</p>
+      <h1 class="hero-title">recipes</h1>
+      <button class="button">get started</button>
+      <p class="hero-reward">OR SEND US YOUR OWN RECIPES AND <a href="#">GET REWARDED!</a> </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-l">
+      @@include('./html-templates/card-circle.html',{
+        "img":"inspired.png",
+        "title":"get inspired",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.",
+   })   
+      @@include('./html-templates/card-circle.html',{
+        "img":"rewarded.png",
+        "title":"get rewarded",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.",
+   })   
+      @@include('./html-templates/card-circle.html',{
+        "img":"social.png",
+        "title":"get social",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.",
+   })   
+    </div>
+</div>
+</section>
+
+<section class="section section-app">
+    <div class="container">
+      <div class="grid grid-xl">
+        <div class="grid-item width-1-1 width-1-2-l">
+          <figure class="section-app-mainimg">
+            <img src="images/iphone1.png" alt="phone">
+          </figure>
+        </div>
+        <div class="grid-item width-1-2-l app-text">
+          <h2 class="section-title underlined">INTRODUCING THE FUDI APP</h2>
+          <p class="section-description">Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet 
+            felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest
+            ibulum tristique. Suspendisse tristique lacus ac mattis porta.   
+            </p>
+          <p class="section-description"> Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In 
+            libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas
+            sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis. 
+            Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan. 
+            </p>
+          <p class="section-description">
+            Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam 
+            malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices 
+            ante, a mattis massa.</p>
+            <a href="#" class="app-link"><img src="images/android.png" alt="android"></a>
+            <a href="#" class="app-link"><img src="images/ios.png" alt="ios"></a>    
+        </div>
+      </div>
+    </div>
+</section>
+
+   <section class="section section-swiper">
+     <div class="container">
+      @@include('./html-templates/swiper1.html',{
+      })
+     </div>
+   </section>
+  
+
+   <section class="section section-cuisines">
+     <h2 class="section-title underlined">BROWSE BY CUISINES</h2>
+<div class="grid">
+
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"327",
+       "tit":"italian",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"856",
+       "tit":"indian",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"27",
+       "tit":"french",
+    })
+
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"174",
+       "tit":"steakhouse",
+    })
+
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"731",
+       "tit":"seafood",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"273",
+       "tit":"sushi",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"529",
+       "tit":"mexican",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"145",
+       "tit":"chinise",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"327",
+       "tit":"pizza",
+    })
+     @@include('./html-templates/card-cuisines.html',{
+       "num":"1.437",
+       "tit":"american",
+    })
+  </div>
+      <div class="container">
+              <div id="coutntercontainer" class="grid grid-l-xxxl">
+      
+                      @@include('./html-templates/card-numbers.html',{
+                        "num":"23,567",
+                        "desc":"Recipes Available",
+                    })
+                      @@include('./html-templates/card-numbers.html',{
+                        "num":"431,729",
+                        "desc":"Active Users",
+                    })
+                      @@include('./html-templates/card-numbers.html',{
+                        "num":"892,173",
+                        "desc":"Positive Reviews",
+                    })
+                      @@include('./html-templates/card-numbers.html',{
+                        "num":"56,581",
+                        "desc":"Photos & Videos",
+                    })
+                      @@include('./html-templates/card-numbers.html',{
+                        "num":"3,182",
+                        "desc":"Spices and Herbs",
+                    })
+                </div>
+      </div>
+</section>
+
+  
+
+  @@include('./html-templates/login-popup.html',{
+  })
+
+  @@include('./html-templates/signup-popup.html',{
+  })
+  @@include('./html-templates/footer.html',{
+  })
+
+<script src="js/swiper.min.js"></script>
+
+<script src="js/main.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+.card-circle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-img {
+        width: 107px;
+        height: 107px;
+        border: solid black 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        img {
+            width: 60px;
+            height: auto;
+        }
+    }
+
+    &-title {
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        font-weight: 700;
+        margin-bottom: 0px;
+
+    }
+
+    &-description {
+        margin-top: 6px;
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.63;
+        margin-bottom: 5px;
+    }
+}
+
+.card-swiper {
+
+    font-weight: 100;
+
+    color: white;
+    padding-bottom: 50px;
+
+    &-img {
+        img {
+            width: 118px;
+            transform: translate(-5px, -5px);
+        }
+
+        margin: auto;
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        width: 113px;
+        height: 113px;
+        overflow: hidden;
+    }
+
+    &-description {
+
+        font-weight: 100;
+        font-size: 30px;
+        margin-top: 15px;
+        line-height: 1.5;
+        margin-bottom: 14px;
+    }
+
+    cite {
+        letter-spacing: 0.8px;
+    }
+
+}
+
+.card-cuisines {
+    &-img {
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    color: white;
+    position: relative;
+    height: calc(100vw / 2 / 320 * 255);
+
+    &-overlay {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .empty {
+            flex-grow: 3;
+        }
+    }
+
+    &-title {
+
+        text-transform: uppercase;
+        text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        letter-spacing: 1.8px;
+
+
+    }
+
+    &-counter {
+        flex-grow: 3;
+        display: flex;
+        align-items: flex-end;
+        margin: 0 36px 8px;
+        text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+        font-family: TimesNewRomanPS-MT;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: italic;
+        line-height: 0.84;
+        letter-spacing: 0.78px;
+
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.card-numbers {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-counter {
+        font-size: 23px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+    }
+
+    &-description {
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: $breakpoint-l) {
+    .card-cuisines {
+        height: calc(100vw / 5 / 320 * 225);
+    }
+
+    .card-numbers {
+        padding: 50px 0;
+
+        &-counter {
+            font-size: 25px;
+            letter-spacing: 1.8px;
+        }
+
+        &-description {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-xl) {
+    .card-cuisines {
+        &-counter {
+            font-size: 15.5px;
+        }
+
+        &-title {
+            font-size: 26px;
+
+        }
+    }
+
+    .card-numbers {
+        padding: 50px 0;
+
+        &-counter {
+            font-size: 36px;
+            letter-spacing: 1.8px;
+        }
+
+        &-description {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-xxl) {
+    .card-cuisines {
+        &-title {
+            font-size: 28px;
+
+        }
+    }
+
+}
+
+@media screen and (min-width: $breakpoint-xxxl) {
+    .card-cuisines {
+        &-title {
+            font-size: 36px;
+
+        }
+    }
+
+}
